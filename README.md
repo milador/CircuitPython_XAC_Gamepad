@@ -10,7 +10,7 @@
   6. Hard reset the board using the reset button or software reset.
 
 ## Notes
-  1. You may need to remove the device in Windows for it to update the HID profile and press the restart if it doesn't show the correct HID profiles.
+  1. You may need to remove the device in Windows for it to update the HID profile and press the restart button if it doesn't show the correct HID profiles.
   2. REPL is disabled in boot.py file. You can comment ``` usb_cdc.disable() ``` depending on your dev board. It might be a good idea to comment it during the development stage. Don't forget pressing the reset button.
 
 ## Validation 

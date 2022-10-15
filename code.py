@@ -42,9 +42,9 @@ for button in buttons:
     button.direction = digitalio.Direction.INPUT
     button.pull = digitalio.Pull.UP
 
-# Connect an analog two-axis joystick to A4 and A5.
-ax = analogio.AnalogIn(board.A4)
-ay = analogio.AnalogIn(board.A5)
+# Connect an analog two-axis joystick to A1 and A2.
+ax = analogio.AnalogIn(board.A1)
+ay = analogio.AnalogIn(board.A2)
 
 # Equivalent of Arduino's map() function.
 def range_map(x, in_min, in_max, out_min, out_max):
